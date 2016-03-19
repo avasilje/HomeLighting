@@ -1,0 +1,237 @@
+Post Processor Report
+OrCAD FILE: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.MAX
+Sat Jan 16 02:48:32 2016
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.TOP
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.TOP:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,      32 Flashes
+D11:  0.0700 x 0.0500 RECTANGLE -----      12 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      14 Flashes
+D13:  0.0480 x 0.0860 RECTANGLE -----       2 Flashes
+D14:  0.0500 x 0.0700 RECTANGLE -----       2 Flashes
+D15:  0.0760 x 0.0480 RECTANGLE -----       8 Flashes
+D16:  0.0620 ROUND  --       0 Draws,       9 Flashes
+D17:  0.0620 SQUARE --       0 Draws,       1 Flashes
+D18:  0.0720 ROUND  --       0 Draws,      64 Flashes
+D19:  0.1200 ROUND  --       0 Draws,       4 Flashes
+D20:  0.0580 ROUND  --       0 Draws,      24 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      12 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      10 Flashes
+D23:  0.0750 SQUARE --       0 Draws,       5 Flashes
+D24:  0.0500 SQUARE --       0 Draws,      38 Flashes
+D25:  0.0180 x 0.0700 OBLONG    -----      20 Flashes
+D26:  0.0180 x 0.0700 RECTANGLE -----       2 Flashes
+D27:  0.0700 x 0.0180 OBLONG    -----      19 Flashes
+D28:  0.0700 x 0.0180 RECTANGLE -----       3 Flashes
+D29:  0.0400 ROUND  --       0 Draws,      27 Flashes
+D30:  0.0260 ROUND  --     480 Draws,       0 Flashes
+D31:  0.0010 ROUND  --     888 Draws,       0 Flashes
+D32:  0.0120 ROUND  --     309 Draws,       0 Flashes
+D33:  0.0180 ROUND  --     393 Draws,       0 Flashes
+D34:  0.0400 ROUND  --       0 Draws,      37 Flashes
+D35:  0.0600 ROUND  --      49 Draws,       0 Flashes
+D36:  0.0080 ROUND  --     134 Draws,       0 Flashes
+D37:  0.0800 ROUND  --      21 Draws,       0 Flashes
+D38:  0.0400 ROUND  --      17 Draws,       0 Flashes
+D39:  0.0320 ROUND  --      21 Draws,       0 Flashes
+D40:  0.0060 ROUND  --      13 Draws,       0 Flashes
+---------------------------------------------------------
+ 31 D-Codes      -----    2325 Draws,     345 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.BOT
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.BOT:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,      32 Flashes
+D16:  0.0620 ROUND  --       0 Draws,      10 Flashes
+D18:  0.0720 ROUND  --       0 Draws,      64 Flashes
+D19:  0.1200 ROUND  --       0 Draws,       4 Flashes
+D20:  0.0580 ROUND  --       0 Draws,      24 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      12 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      10 Flashes
+D23:  0.0750 SQUARE --       0 Draws,       5 Flashes
+D29:  0.0400 ROUND  --       0 Draws,      27 Flashes
+D30:  0.0260 ROUND  --     480 Draws,       0 Flashes
+D32:  0.0120 ROUND  --     168 Draws,       0 Flashes
+D33:  0.0180 ROUND  --     240 Draws,       0 Flashes
+D34:  0.0400 ROUND  --       0 Draws,      37 Flashes
+D35:  0.0600 ROUND  --      28 Draws,       0 Flashes
+D36:  0.0080 ROUND  --       3 Draws,       0 Flashes
+D37:  0.0800 ROUND  --       9 Draws,       0 Flashes
+D39:  0.0320 ROUND  --      69 Draws,       0 Flashes
+---------------------------------------------------------
+ 17 D-Codes      -----     997 Draws,     225 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SMT
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SMT:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,      32 Flashes
+D12:  0.0600 SQUARE --       0 Draws,       2 Flashes
+D13:  0.0480 x 0.0860 RECTANGLE -----       2 Flashes
+D15:  0.0760 x 0.0480 RECTANGLE -----       8 Flashes
+D17:  0.0620 SQUARE --       0 Draws,      38 Flashes
+D20:  0.0580 ROUND  --       0 Draws,      24 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      12 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      10 Flashes
+D23:  0.0750 SQUARE --       0 Draws,       5 Flashes
+D25:  0.0180 x 0.0700 OBLONG    -----      20 Flashes
+D26:  0.0180 x 0.0700 RECTANGLE -----       2 Flashes
+D27:  0.0700 x 0.0180 OBLONG    -----      19 Flashes
+D28:  0.0700 x 0.0180 RECTANGLE -----       3 Flashes
+D36:  0.0080 ROUND  --    1564 Draws,       0 Flashes
+D41:  0.0750 x 0.0550 RECTANGLE -----      12 Flashes
+D42:  0.0550 x 0.0750 RECTANGLE -----       2 Flashes
+D43:  0.0670 ROUND  --       0 Draws,       9 Flashes
+D44:  0.0670 SQUARE --       0 Draws,       1 Flashes
+D45:  0.0740 ROUND  --       0 Draws,      64 Flashes
+D46:  0.1250 ROUND  --       0 Draws,       4 Flashes
+D47:  0.0720 SQUARE --       0 Draws,      12 Flashes
+D48:  0.0420 ROUND  --       0 Draws,      27 Flashes
+D49:  0.0420 ROUND  --       0 Draws,      37 Flashes
+---------------------------------------------------------
+ 23 D-Codes      -----    1564 Draws,     345 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SMB
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SMB:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,      32 Flashes
+D20:  0.0580 ROUND  --       0 Draws,      24 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      12 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      10 Flashes
+D23:  0.0750 SQUARE --       0 Draws,       5 Flashes
+D36:  0.0080 ROUND  --     538 Draws,       0 Flashes
+D43:  0.0670 ROUND  --       0 Draws,      10 Flashes
+D45:  0.0740 ROUND  --       0 Draws,      64 Flashes
+D46:  0.1250 ROUND  --       0 Draws,       4 Flashes
+D48:  0.0420 ROUND  --       0 Draws,      27 Flashes
+D49:  0.0420 ROUND  --       0 Draws,      37 Flashes
+---------------------------------------------------------
+ 11 D-Codes      -----     538 Draws,     225 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SST
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.SST:
+---------------------------------------------------------
+D31:  0.0010 ROUND  --      80 Draws,       0 Flashes
+D36:  0.0080 ROUND  --      97 Draws,       0 Flashes
+D40:  0.0060 ROUND  --    1483 Draws,       0 Flashes
+D50:  0.0100 ROUND  --      15 Draws,       0 Flashes
+---------------------------------------------------------
+  4 D-Codes      -----    1675 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.AST
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.AST:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,      32 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      14 Flashes
+D13:  0.0480 x 0.0860 RECTANGLE -----       2 Flashes
+D15:  0.0760 x 0.0480 RECTANGLE -----       8 Flashes
+D20:  0.0580 ROUND  --       0 Draws,      24 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      12 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      10 Flashes
+D23:  0.0750 SQUARE --       0 Draws,       5 Flashes
+D24:  0.0500 SQUARE --       0 Draws,      38 Flashes
+D25:  0.0180 x 0.0700 OBLONG    -----      20 Flashes
+D26:  0.0180 x 0.0700 RECTANGLE -----       2 Flashes
+D27:  0.0700 x 0.0180 OBLONG    -----      19 Flashes
+D28:  0.0700 x 0.0180 RECTANGLE -----       3 Flashes
+D36:  0.0080 ROUND  --    2194 Draws,       0 Flashes
+D40:  0.0060 ROUND  --    1950 Draws,       0 Flashes
+D50:  0.0100 ROUND  --    1073 Draws,       0 Flashes
+D51:  0.0079 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+ 17 D-Codes      -----    5221 Draws,     189 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.DRD
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.DRD:
+---------------------------------------------------------
+D50:  0.0100 ROUND  --    1567 Draws,       0 Flashes
+D51:  0.0079 ROUND  --       4 Draws,       0 Flashes
+---------------------------------------------------------
+  2 D-Codes      -----    1571 Draws,       0 Flashes
+
+*********************************************************
+
+Output file: C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.FAB
+
+Aperture totals for C:\MYWORKS\HOMELIGHTING\02_HW\HOMELIGHTING_FINAL.FAB:
+---------------------------------------------------------
+D36:  0.0080 ROUND  --     192 Draws,       0 Flashes
+D50:  0.0100 ROUND  --    1567 Draws,       0 Flashes
+D52:  0.0050 ROUND  --    1826 Draws,       0 Flashes
+---------------------------------------------------------
+  3 D-Codes      -----    3585 Draws,       0 Flashes
+
+
+*********************************************************
+
+Aperture totals for entire project:
+---------------------------------------------------------
+D10:  0.0600 ROUND  --       0 Draws,     160 Flashes
+D11:  0.0700 x 0.0500 RECTANGLE -----      12 Flashes
+D12:  0.0600 SQUARE --       0 Draws,      30 Flashes
+D13:  0.0480 x 0.0860 RECTANGLE -----       6 Flashes
+D14:  0.0500 x 0.0700 RECTANGLE -----       2 Flashes
+D15:  0.0760 x 0.0480 RECTANGLE -----      24 Flashes
+D16:  0.0620 ROUND  --       0 Draws,      19 Flashes
+D17:  0.0620 SQUARE --       0 Draws,      39 Flashes
+D18:  0.0720 ROUND  --       0 Draws,     128 Flashes
+D19:  0.1200 ROUND  --       0 Draws,       8 Flashes
+D20:  0.0580 ROUND  --       0 Draws,     120 Flashes
+D21:  0.0580 SQUARE --       0 Draws,      60 Flashes
+D22:  0.0750 ROUND  --       0 Draws,      50 Flashes
+D23:  0.0750 SQUARE --       0 Draws,      25 Flashes
+D24:  0.0500 SQUARE --       0 Draws,      76 Flashes
+D25:  0.0180 x 0.0700 OBLONG    -----      60 Flashes
+D26:  0.0180 x 0.0700 RECTANGLE -----       6 Flashes
+D27:  0.0700 x 0.0180 OBLONG    -----      57 Flashes
+D28:  0.0700 x 0.0180 RECTANGLE -----       9 Flashes
+D29:  0.0400 ROUND  --       0 Draws,      54 Flashes
+D30:  0.0260 ROUND  --     960 Draws,       0 Flashes
+D31:  0.0010 ROUND  --     968 Draws,       0 Flashes
+D32:  0.0120 ROUND  --     477 Draws,       0 Flashes
+D33:  0.0180 ROUND  --     633 Draws,       0 Flashes
+D34:  0.0400 ROUND  --       0 Draws,      74 Flashes
+D35:  0.0600 ROUND  --      77 Draws,       0 Flashes
+D36:  0.0080 ROUND  --    4722 Draws,       0 Flashes
+D37:  0.0800 ROUND  --      30 Draws,       0 Flashes
+D38:  0.0400 ROUND  --      17 Draws,       0 Flashes
+D39:  0.0320 ROUND  --      90 Draws,       0 Flashes
+D40:  0.0060 ROUND  --    3446 Draws,       0 Flashes
+D41:  0.0750 x 0.0550 RECTANGLE -----      12 Flashes
+D42:  0.0550 x 0.0750 RECTANGLE -----       2 Flashes
+D43:  0.0670 ROUND  --       0 Draws,      19 Flashes
+D44:  0.0670 SQUARE --       0 Draws,       1 Flashes
+D45:  0.0740 ROUND  --       0 Draws,     128 Flashes
+D46:  0.1250 ROUND  --       0 Draws,       8 Flashes
+D47:  0.0720 SQUARE --       0 Draws,      12 Flashes
+D48:  0.0420 ROUND  --       0 Draws,      54 Flashes
+D49:  0.0420 ROUND  --       0 Draws,      74 Flashes
+D50:  0.0100 ROUND  --    4222 Draws,       0 Flashes
+D51:  0.0079 ROUND  --       8 Draws,       0 Flashes
+D52:  0.0050 ROUND  --    1826 Draws,       0 Flashes
+---------------------------------------------------------
+ 43 D-Codes      -----   17476 Draws,    1329 Flashes
+
+
+No warnings or errors.

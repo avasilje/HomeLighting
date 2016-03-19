@@ -1,0 +1,954 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 12">
+<link id=Main-File rel=Main-File href="../Parametric_Table.xls">
+<link rel=File-List href=filelist.xml>
+<title>Atmel Corporation</title>
+<link rel=Stylesheet href=stylesheet.css>
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+-->
+</style>
+<![if !supportTabStrip]><script language="JavaScript">
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=4) {
+   if (parent.document.readyState=="complete"
+    && parent.frames['frTabs'].document.readyState=="complete")
+   parent.fnSetActiveSheet(0);
+  else
+   window.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!="frSheet")
+ window.location.replace("../Parametric_Table.xls");
+else
+ fnUpdateTabs();
+//-->
+</script>
+<![endif]>
+<script language="JavaScript">
+<!--
+function sortBy(strSortCol, strSortDirection, strSubCatID){
+	var searchTerm="params";
+	if(searchTerm!="part"){
+		var url="param_table.asp?family_id=607&subcat_id=791" + "&OrderBy=" + strSortCol + "&Direction=" + strSortDirection + "#" + strSubCatID;
+		document.sort_form.action=url;
+		document.sort_form.submit();	
+	}
+	
+	
+}
+//-->
+</script>
+</head>
+
+<body link=blue vlink=purple class=xl65 leftmargin=8 topmargin=8 marginwidth=8
+marginheight=8>
+
+<table border=0 cellpadding=0 cellspacing=0 width=2988 style='border-collapse:
+ collapse;table-layout:fixed;width:2244pt'>
+<!--- Start Body --------------------------------------------------------->
+ <col class=xl65 width=84 style='mso-width-source:userset;mso-width-alt:3072;
+ width:63pt'>
+ <col class=xl65 width=95 style='mso-width-source:userset;mso-width-alt:3474;
+ width:71pt'>
+ <col class=xl65 width=108 style='mso-width-source:userset;mso-width-alt:3949;
+ width:81pt'>
+ <col class=xl65 width=92 style='mso-width-source:userset;mso-width-alt:3364;
+ width:69pt'>
+ <col class=xl65 width=86 style='mso-width-source:userset;mso-width-alt:3145;
+ width:65pt'>
+ <col class=xl65 width=85 style='mso-width-source:userset;mso-width-alt:3108;
+ width:64pt'>
+ <col class=xl65 width=58 style='mso-width-source:userset;mso-width-alt:2121;
+ width:44pt'>
+ <col class=xl65 width=132 style='mso-width-source:userset;mso-width-alt:4827;
+ width:99pt'>
+ <col class=xl65 width=128 style='mso-width-source:userset;mso-width-alt:4681;
+ width:96pt'>
+ <col class=xl65 width=88 style='mso-width-source:userset;mso-width-alt:3218;
+ width:66pt'>
+ <col class=xl65 width=75 style='mso-width-source:userset;mso-width-alt:2742;
+ width:56pt'>
+ <col class=xl65 width=132 style='mso-width-source:userset;mso-width-alt:4827;
+ width:99pt'>
+ <col class=xl65 width=92 style='mso-width-source:userset;mso-width-alt:3364;
+ width:69pt'>
+ <col class=xl65 width=135 style='mso-width-source:userset;mso-width-alt:4937;
+ width:101pt'>
+ <col class=xl65 width=69 style='mso-width-source:userset;mso-width-alt:2523;
+ width:52pt'>
+ <col class=xl65 width=28 style='mso-width-source:userset;mso-width-alt:1024;
+ width:21pt'>
+ <col class=xl65 width=119 style='mso-width-source:userset;mso-width-alt:4352;
+ width:89pt'>
+ <col class=xl65 width=110 style='mso-width-source:userset;mso-width-alt:4022;
+ width:83pt'>
+ <col class=xl65 width=103 style='mso-width-source:userset;mso-width-alt:3766;
+ width:77pt'>
+ <col class=xl65 width=30 style='mso-width-source:userset;mso-width-alt:1097;
+ width:23pt'>
+ <col class=xl65 width=144 style='mso-width-source:userset;mso-width-alt:5266;
+ width:108pt'>
+ <col class=xl65 width=41 style='mso-width-source:userset;mso-width-alt:1499;
+ width:31pt'>
+ <col class=xl65 width=32 style='mso-width-source:userset;mso-width-alt:1170;
+ width:24pt'>
+ <col class=xl65 width=41 style='mso-width-source:userset;mso-width-alt:1499;
+ width:31pt'>
+ <col class=xl65 width=70 style='mso-width-source:userset;mso-width-alt:2560;
+ width:53pt'>
+ <col class=xl65 width=34 style='mso-width-source:userset;mso-width-alt:1243;
+ width:26pt'>
+ <col class=xl65 width=73 style='mso-width-source:userset;mso-width-alt:2669;
+ width:55pt'>
+ <col class=xl65 width=256 span=2 style='mso-width-source:userset;mso-width-alt:
+ 9362;width:192pt'>
+ <col class=xl65 width=64 span=3 style='width:48pt'>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl66 width=84 style='height:15.0pt;width:63pt'><!--------------------BEGIN CONTENT HERE---------------------------------------------------->
+  <form name="sort_form" method=post>
+  Device</td>
+  <td class=xl67 width=95 style='width:71pt'>Flash (Kbytes)</td>
+  <td class=xl67 width=108 style='width:81pt'>EEPROM (Bytes)</td>
+  <td class=xl67 width=92 style='width:69pt'>SRAM (Bytes)</td>
+  <td class=xl67 width=86 style='width:65pt'>Max I/O Pins</td>
+  <td class=xl67 width=85 style='width:64pt'>F.max (MHz)</td>
+  <td class=xl67 width=58 style='width:44pt'>Vcc (V)</td>
+  <td class=xl67 width=132 style='width:99pt'>10-bit A/D Channels</td>
+  <td class=xl67 width=128 style='width:96pt'>Analog Comparator</td>
+  <td class=xl67 width=88 style='width:66pt'>16-bit Timers</td>
+  <td class=xl67 width=75 style='width:56pt'>8-bit Timer</td>
+  <td class=xl67 width=132 style='width:99pt'>Brown Out Detector</td>
+  <td class=xl67 width=92 style='width:69pt'>Ext Interrupts</td>
+  <td class=xl67 width=135 style='width:101pt'>Hardware Multiplier</td>
+  <td class=xl67 width=69 style='width:52pt'>Interrupts</td>
+  <td class=xl67 width=28 style='width:21pt'>ISP</td>
+  <td class=xl67 width=119 style='width:89pt'>On Chip Oscillator</td>
+  <td class=xl67 width=110 style='width:83pt'>Package Options</td>
+  <td class=xl67 width=103 style='width:77pt'>PWM Channels</td>
+  <td class=xl67 width=30 style='width:23pt'>RTC</td>
+  <td class=xl67 width=144 style='width:108pt'>Self Program Memory</td>
+  <td class=xl67 width=41 style='width:31pt'>SPI</td>
+  <td class=xl67 width=32 style='width:24pt'>TWI</td>
+  <td class=xl67 width=41 style='width:31pt'>UART</td>
+  <td class=xl67 width=70 style='width:53pt'>Watchdog</td>
+  <td class=xl67 width=34 style='width:26pt'>CAN</td>
+  <td class=xl67 width=73 style='width:55pt'>picoPower</td>
+  <td class=xl67 width=256 style='width:192pt'>Packages</td>
+  <td class=xl67 width=256 style='width:192pt'>Green Packages</td>
+<!--Build the last column, the Notes column
+								<td valign="bottom" align="center" bgcolor="#ff9900" class="head1_black" width="500" background="../images/products/trans.gif">
+									<img src="../images/products/trans.gif" border="0" width="500" height="1"><br>
+									<b>Other Notes</b></td>
+								-->
+  <td class=xl65 width=64 style='width:48pt'>&nbsp;</td>
+  <td class=xl65 width=64 style='width:48pt'>&nbsp;</td>
+  <td class=xl65 width=64 style='width:48pt'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny10</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>32</td>
+  <td class=xl69>4</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8-5.5V</td>
+  <td class=xl70>8-Apr</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>11</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>SOT23 6 &nbsp;</td>
+  <td class=xl68>&nbsp;SOT23 6&nbsp;UDFN / USON 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny13A</td>
+  <td class=xl69>1</td>
+  <td class=xl69>64</td>
+  <td class=xl69>64B + 32 reg</td>
+  <td class=xl69>6</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>6</td>
+  <td class=xl69>No</td>
+  <td class=xl69>9</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68 colspan=4 style='mso-ignore:colspan'>&nbsp;MLF (WQFN)
+  20&nbsp;MLF (VDFN) 10&nbsp;PDIP 8&nbsp;SOIC (150mil) 8&nbsp;SOIC (208mil) 8</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny167</td>
+  <td class=xl69>16</td>
+  <td class=xl69>--</td>
+  <td class=xl69>512</td>
+  <td class=xl69>16</td>
+  <td class=xl69>16</td>
+  <td class=xl69>2.7 - 5.5</td>
+  <td class=xl69>11</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>16</td>
+  <td class=xl69>--</td>
+  <td class=xl69>20</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1+USI</td>
+  <td class=xl69>No</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>VQFN (Sawn) 32 &nbsp;</td>
+  <td class=xl68>&nbsp;VQFN (Sawn) 32&nbsp;SOIC 20&nbsp;TSSOP 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny20</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>128</td>
+  <td class=xl69>12</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8-5.5V</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>11</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>UFBGA 15 &nbsp;</td>
+  <td class=xl68>&nbsp;UFBGA 15&nbsp;TSSOP 14&nbsp;SOIC 14&nbsp;VQFN 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny2313A</td>
+  <td class=xl69>2</td>
+  <td class=xl69>128</td>
+  <td class=xl69>128</td>
+  <td class=xl69>18</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>PDIP 20 &nbsp;</td>
+  <td class=xl68>&nbsp;PDIP 20&nbsp;MLF (WQFN) 20&nbsp;SOIC (300mil) 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny24A</td>
+  <td class=xl69>2</td>
+  <td class=xl69>128</td>
+  <td class=xl69>128</td>
+  <td class=xl69>12</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>12</td>
+  <td class=xl69>--</td>
+  <td class=xl69>17</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (WQFN)
+  20&nbsp;PDIP 14&nbsp;SOIC (150mil) 14&nbsp;VQFN 20</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny25</td>
+  <td class=xl69>2</td>
+  <td class=xl69>128</td>
+  <td class=xl69>128</td>
+  <td class=xl69>6</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>7</td>
+  <td class=xl69>--</td>
+  <td class=xl69>15</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68 colspan=3 style='mso-ignore:colspan'>&nbsp;MLF (WQFN)
+  20&nbsp;PDIP 8&nbsp;SOIC (150mil) 8&nbsp;SOIC (208mil) 8</td>
+  <td class=xl65>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny261A</td>
+  <td class=xl69>2</td>
+  <td class=xl69>128</td>
+  <td class=xl69>128</td>
+  <td class=xl69>16</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8 - 5.5</td>
+  <td class=xl69>11</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>19</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>6</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (VQFN) 32 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 20&nbsp;SOIC (300mil) 20&nbsp;TSSOP 20</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny28L</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>32</td>
+  <td class=xl69>11</td>
+  <td class=xl69>4</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2(+8)</td>
+  <td class=xl69>--</td>
+  <td class=xl69>5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 28&nbsp;TQFP 32 MLF (VQFN) 32 &nbsp;</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny4</td>
+  <td class=xl69>0.5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>32</td>
+  <td class=xl69>4</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8-5-5V</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>11</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>SOT23 6 &nbsp;</td>
+  <td class=xl68>&nbsp;SOT23 6&nbsp;UDFN / USON 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny4313</td>
+  <td class=xl69>4</td>
+  <td class=xl69>128</td>
+  <td class=xl69>128</td>
+  <td class=xl69>18</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>PDIP 20 &nbsp;</td>
+  <td class=xl68>&nbsp;PDIP 20&nbsp;MLF (WQFN) 20&nbsp;SOIC (300mil) 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny43U</td>
+  <td class=xl69>4</td>
+  <td class=xl69>64</td>
+  <td class=xl69>256</td>
+  <td class=xl69>16</td>
+  <td class=xl69>8</td>
+  <td class=xl69>0.7 - 1.8</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>17</td>
+  <td class=xl69>--</td>
+  <td class=xl69>16</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Y</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68>&nbsp;MLF (WQFN) 20&nbsp;SOIC (300mil) 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny44A</td>
+  <td class=xl69>4</td>
+  <td class=xl69>256</td>
+  <td class=xl69>256</td>
+  <td class=xl69>12</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>12</td>
+  <td class=xl69>--</td>
+  <td class=xl69>17</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (WQFN)
+  20&nbsp;PDIP 14&nbsp;SOIC (150mil) 14&nbsp;VQFN 20</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny45</td>
+  <td class=xl69>4</td>
+  <td class=xl69>256</td>
+  <td class=xl69>256</td>
+  <td class=xl69>6</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>7</td>
+  <td class=xl69>--</td>
+  <td class=xl69>15</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68>&nbsp;MLF (WQFN) 20&nbsp;PDIP 8&nbsp;SOIC (208mil) 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny461A</td>
+  <td class=xl69>4</td>
+  <td class=xl69>256</td>
+  <td class=xl69>256</td>
+  <td class=xl69>16</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8 - 5.5</td>
+  <td class=xl69>11</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>19</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>6</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (VQFN) 32 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 20&nbsp;SOIC (300mil) 20&nbsp;TSSOP 20</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny48</td>
+  <td class=xl69>4</td>
+  <td class=xl69>64</td>
+  <td class=xl69>256</td>
+  <td class=xl69>24/28</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8 - 5.5</td>
+  <td class=xl70>8-Jun</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>24</td>
+  <td class=xl69>--</td>
+  <td class=xl69>20</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (VQFN) 32 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 28&nbsp;MLF (VQFN) 28&nbsp;TQFP 32</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny5</td>
+  <td class=xl69>0.5</td>
+  <td class=xl69>--</td>
+  <td class=xl69>32</td>
+  <td class=xl69>4</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8-5-5V</td>
+  <td class=xl70>8-Apr</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>11</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>SOT23 6 &nbsp;</td>
+  <td class=xl68>&nbsp;SOT23 6&nbsp;UDFN / USON 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny84</td>
+  <td class=xl69>8</td>
+  <td class=xl69>512</td>
+  <td class=xl69>512</td>
+  <td class=xl69>12</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>8</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>12</td>
+  <td class=xl69>--</td>
+  <td class=xl69>17</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68>&nbsp;MLF (WQFN) 20&nbsp;PDIP 14&nbsp;SOIC (150mil) 14</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny85</td>
+  <td class=xl69>8</td>
+  <td class=xl69>512</td>
+  <td class=xl69>512</td>
+  <td class=xl69>6</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8-5.5</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>7</td>
+  <td class=xl69>--</td>
+  <td class=xl69>15</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (WQFN) 20 &nbsp;</td>
+  <td class=xl68>&nbsp;MLF (WQFN) 20&nbsp;PDIP 8&nbsp;SOIC (208mil) 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny861A</td>
+  <td class=xl69>8</td>
+  <td class=xl69>512</td>
+  <td class=xl69>512</td>
+  <td class=xl69>16</td>
+  <td class=xl69>20</td>
+  <td class=xl69>1.8 - 5.5</td>
+  <td class=xl69>11</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>19</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>6</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>USI</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (VQFN) 32 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 20&nbsp;SOIC (300mil) 20&nbsp;TSSOP 20</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny87</td>
+  <td class=xl69>16</td>
+  <td class=xl69>--</td>
+  <td class=xl69>512</td>
+  <td class=xl69>16</td>
+  <td class=xl69>16</td>
+  <td class=xl69>2.7 - 5,5</td>
+  <td class=xl69>11</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>16</td>
+  <td class=xl69>--</td>
+  <td class=xl69>20</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>4</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1+USI</td>
+  <td class=xl69>No</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>VQFN (Sawn) 32 &nbsp;</td>
+  <td class=xl68>&nbsp;VQFN (Sawn) 32&nbsp;SOIC 20&nbsp;TSSOP 20</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny88</td>
+  <td class=xl69>8</td>
+  <td class=xl69>64</td>
+  <td class=xl69>512</td>
+  <td class=xl69>24/28</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8 - 5.5</td>
+  <td class=xl70>8-Jun</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>1</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>24</td>
+  <td class=xl69>--</td>
+  <td class=xl69>20</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>MLF (VQFN) 32 &nbsp;</td>
+  <td class=xl68 colspan=2 style='mso-ignore:colspan'>&nbsp;MLF (VQFN)
+  32&nbsp;PDIP 28&nbsp;MLF (VQFN) 28&nbsp;TQFP 32</td>
+  <td colspan=2 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=20 style='height:15.0pt'>
+  <td height=20 class=xl68 style='height:15.0pt'>ATtiny9</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>32</td>
+  <td class=xl69>4</td>
+  <td class=xl69>12</td>
+  <td class=xl69>1.8-5-5V</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>1</td>
+  <td class=xl69>--</td>
+  <td class=xl69>11</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>2</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl69>Yes</td>
+  <td class=xl69>--</td>
+  <td class=xl69>--</td>
+  <td class=xl68>SOT23 6 &nbsp;</td>
+  <td class=xl68>&nbsp;SOT23 6&nbsp;UDFN / USON 8</td>
+  <td colspan=3 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <tr height=30 style='mso-height-source:userset;height:22.5pt'>
+  <td height=30 class=xl71 width=84 style='height:22.5pt;width:63pt'>&nbsp;
+  </form>
+<!--------------------END CONTENT HERE------------------------------------------------------></td>
+<!--- End Body -----------------------------------------------------------><!---- Footer / Global nav------------------------------------------------><!---- End Footer / Global nav-------------------------------------------->
+  <td colspan=31 class=xl65 style='mso-ignore:colspan'>&nbsp;</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=84 style='width:63pt'></td>
+  <td width=95 style='width:71pt'></td>
+  <td width=108 style='width:81pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=86 style='width:65pt'></td>
+  <td width=85 style='width:64pt'></td>
+  <td width=58 style='width:44pt'></td>
+  <td width=132 style='width:99pt'></td>
+  <td width=128 style='width:96pt'></td>
+  <td width=88 style='width:66pt'></td>
+  <td width=75 style='width:56pt'></td>
+  <td width=132 style='width:99pt'></td>
+  <td width=92 style='width:69pt'></td>
+  <td width=135 style='width:101pt'></td>
+  <td width=69 style='width:52pt'></td>
+  <td width=28 style='width:21pt'></td>
+  <td width=119 style='width:89pt'></td>
+  <td width=110 style='width:83pt'></td>
+  <td width=103 style='width:77pt'></td>
+  <td width=30 style='width:23pt'></td>
+  <td width=144 style='width:108pt'></td>
+  <td width=41 style='width:31pt'></td>
+  <td width=32 style='width:24pt'></td>
+  <td width=41 style='width:31pt'></td>
+  <td width=70 style='width:53pt'></td>
+  <td width=34 style='width:26pt'></td>
+  <td width=73 style='width:55pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=256 style='width:192pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+  <td width=64 style='width:48pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+</html>

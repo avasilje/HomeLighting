@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "PWM_magnifier", "PWM_magnifier.cproj", "{99DB4478-122B-498E-8563-008480EEFC22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99DB4478-122B-498E-8563-008480EEFC22}.Debug|AVR.ActiveCfg = Debug|AVR
+		{99DB4478-122B-498E-8563-008480EEFC22}.Debug|AVR.Build.0 = Debug|AVR
+		{99DB4478-122B-498E-8563-008480EEFC22}.Release|AVR.ActiveCfg = Release|AVR
+		{99DB4478-122B-498E-8563-008480EEFC22}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
